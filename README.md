@@ -1,29 +1,29 @@
 # EDA-and-Wrangling
 In this EDA and data wrangling endeavor, we delved into a comprehensive FIFA dataset, applying a multitude of analytical techniques
-Exploratory Data Analysis (EDA) and Wrangling Report on FIFA Dataset
-
-In the course of conducting EDA and data wrangling on the FIFA dataset, a systematic and comprehensive approach was taken to gain valuable insights into player performance and attribute distributions. The dataset, comprising both goalkeepers and outfield players, presented an array of attributes essential for understanding player abilities. Here, we provide a concise summary of the process and key insights obtained:
-
-Summary Statistics:
-Summary statistics revealed essential information about goalkeepers' and outfield players' attributes. The mean goalkeeper rating offered insight into the average skill level of goalkeepers, while attributes like 'handling' and 'diving' highlighted the variability in their abilities. Similarly, summary statistics for outfield players, including 'overall rating,' 'shooting,' and 'passing,' provided an overview of their performance.
-
-Grouping and Pivoting:
-Grouping players by attributes such as 'position,' 'nationality,' and 'club' allowed for in-depth exploration. Data pivoting organized information systematically, enhancing the clarity of analysis. These operations formed the basis for targeted investigations and revealed trends and patterns within the dataset.
-
-Visualization:
-Data visualization played a pivotal role in conveying insights. Bar plots and pie charts showcased the distribution of players across different positions, shedding light on position popularity. Moreover, visualizing the distribution of players based on their preferred foot ('left' or 'right') provided critical information for tactical considerations.
-
-Correlation Analysis:
-Correlation analysis, in the form of scatter plots and heatmaps, explored relationships between player ratings and their attributes. These analyses identified factors influencing player ratings. Notably, for goalkeepers, the correlation between 'rating' and 'handling' demonstrated the importance of handling skills in determining their overall rating.
-
-Heatmap for Correlation:
-A heatmap displayed correlations among all columns in the goalkeeper dataset. Columns with strong positive or negative correlations with 'rating' emerged as significant factors influencing goalkeeper ratings. This informed decisions related to player selection and performance optimization.
-
-Distribution Analysis:
-Distribution plots, such as histograms and KDE plots, offered insights into the skill level distribution within the dataset. Understanding the central tendencies and variability of player ratings was vital for evaluating player abilities.
-
-Overall, this EDA and data wrangling effort empowered us with actionable insights. These insights can guide player evaluations, team formation, and strategic decisions in both the FIFA gaming context and real-world football management. The systematic approach of summarizing statistics, leveraging visualization, and conducting correlation analyses enhanced our understanding of the dataset, enabling data-driven decision-making for improved player and team performance.
-
-
-
-
+Exploratory Data Analysis (EDA) and Wrangling on FIFA Dataset. The dataset, comprising both goalkeepers and outfield players, presented an array of attributes essential for understanding player abilities. 
+In this analysis, we undertook a comprehensive exploration and data wrangling of a FIFA dataset to gain insights into the attributes and characteristics of both goalkeepers and outfield players. This study aimed to provide a nuanced understanding of various aspects of player performance, positional differences, and factors influencing player ratings.
+# Summary Statistics of Goalkeepers:
+The summary statistics of goalkeepers revealed key insights into their performance. Metrics such as 'handling,' 'diving,' and 'reflexes' had high mean values, suggesting that goalkeepers, on average, excel in these attributes. However, the variance in 'handling' indicated varying levels of proficiency among goalkeepers in this crucial skill.
+# Summary Statistics of Outfield Players:
+Analyzing the summary statistics of outfield players shed light on their overall performance attributes. Variables like 'shooting,' 'passing,' and 'dribbling' had relatively high mean values, implying that outfield players exhibit strong skills in these areas. The variances in these attributes highlighted the diversity of skills among outfield players.
+# Group By and Pivoting:
+We performed group-by and pivot operations to aggregate and reshape the data. These operations facilitated further analysis by creating informative data structures, enabling us to delve deeper into specific aspects of player performance based on their positions and attributes.
+# Visualization of Total Players per Position:
+Through visualization, we displayed the total number of players in each position. This plot offered insights into the distribution of players across positions, helping us understand the popularity and prevalence of different roles on the field.
+# Distribution of Players' Foot Types:
+By showcasing the distribution of players' foot types, we identified the proportion of left-footed and right-footed players. This analysis allowed us to understand the prevalence of each foot type in the dataset.
+# Box Plot of Foot Distribution per Rating:
+The box plot displaying the 'foot' distribution per 'rating' unveiled how player ratings correlate with their dominant foot. It indicated whether players with a particular foot type tend to have higher or lower ratings.
+# Total Players per Foot Type by Position:
+We presented the total number of players for each foot type according to their positions. The use of separate graphs for each position while presenting them collectively enabled us to compare foot type distributions across different roles.
+# Relationship between Ratings and Defending:
+We explored the relationship between player ratings and their defending attributes. This plot illuminated whether higher ratings are associated with better defensive skills, thereby offering insights into the correlation between these variables.
+# Relationship between Rating and Goalkeeper Handling:
+A graph displaying the relationship between player ratings and goalkeeper handling was generated. Additionally, the distributions of each attribute were presented alongside. This helped us understand how handling proficiency influences a goalkeeper's overall rating.
+# Correlation Heatmap:
+A heatmap was constructed to reveal correlations among all columns of the goalkeeper dataset. This analysis identified variables that strongly affect goalkeeper ratings, including attributes like 'diving,' 'reflexes,' and 'handling.' Understanding these relationships is crucial for assessing goalkeeper performance.
+# Distribution of Player Ratings:
+A distribution plot of player ratings was generated, offering insights into the overall distribution of ratings in the dataset. This revealed the most common rating ranges and the presence of any outliers.
+# KDE Plot of Player Ratings by Type:
+KDE (Kernel Density Estimation) plots were employed to visualize the distribution of player ratings for different player types. This allowed us to discern any variations in the distribution patterns among different types of players.
+This exploratory data analysis (EDA) and data wrangling process provided a comprehensive understanding of player performance, positional differences, and factors influencing player ratings in the FIFA dataset. These insights can be invaluable for teams, scouts, and analysts to make informed decisions about player recruitment, strategy, and player development programs. Additionally, the correlations identified in this analysis can guide future research and further enhance our understanding of the complex dynamics of football player performance.
